@@ -20,12 +20,12 @@ Supervisor가 질문을 4개 서브 에이전트 중 하나 이상에 배분한�
 `route_question()`, LLM 미호출·결정적). 도구 배정·라우팅 키워드·핵심 행동 규칙·
 실제 승인 게이트 적용 여부는 에이전트마다 성격이 달라 파일로 분리했다:
 
-| 에이전트 | 역할 | 문서 |
-|---|---|---|
-| `cost_lookup_agent` | 멀티클라우드 비용·사용률 조회 | [agents/cost_lookup_agent.md](agents/cost_lookup_agent.md) |
-| `anomaly_agent` | 이상 급증 탐지 + 실제 장애 이력 대조 | [agents/anomaly_agent.md](agents/anomaly_agent.md) |
-| `optimization_agent` | 절감 시뮬레이션·유휴 리소스·예산·정책 문서(RAG) | [agents/optimization_agent.md](agents/optimization_agent.md) |
-| `execution_agent` | 리소스 정지·축소·알림 발송 (HITL 승인 게이트가 실제로 작동하는 유일한 경로) | [agents/execution_agent.md](agents/execution_agent.md) |
+| 에이전트 | 역할 | 도구 | 문서 |
+|---|---|---|---|
+| `cost_lookup_agent` | 멀티클라우드 비용·사용률 조회 | `get_cost_by_service`, `aws/gcp/azure_get_cost`, `aws/gcp/azure_get_utilization` | [agents/cost_lookup_agent.md](agents/cost_lookup_agent.md) |
+| `anomaly_agent` | 이상 급증 탐지 + 실제 장애 이력 대조 | `detect_cost_anomaly`, `aws/gcp/azure_check_incidents` | [agents/anomaly_agent.md](agents/anomaly_agent.md) |
+| `optimization_agent` | 절감 시뮬레이션·유휴 리소스·예산·정책 문서(RAG) | `estimate_savings`, `retrieve_docs`, `get_budget_status`, `aws/gcp/azure_list_idle` | [agents/optimization_agent.md](agents/optimization_agent.md) |
+| `execution_agent` | 리소스 정지·축소·알림 발송 (HITL 승인 게이트가 실제로 작동하는 유일한 경로) | `stop_resource`, `resize_resource`, `send_cost_alert` | [agents/execution_agent.md](agents/execution_agent.md) |
 
 **공통 라우팅 규칙**: "계획"류 복합 질의(예: "이번 분기 비용 20% 줄이는 계획 세워줘")는
 `anomaly_agent`+`optimization_agent`를 함께 라우팅한다(Plan-Execute 2단계 분해) —
