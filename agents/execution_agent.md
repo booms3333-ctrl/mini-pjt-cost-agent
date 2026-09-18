@@ -12,18 +12,18 @@
 | `resize_resource` | destructive | 필수 |
 | `send_cost_alert` | write | 필수(`RISK_LEVELS`상 "승인 권장" 수준이지만 코드는 write/destructive 둘 다 동일하게 승인을 요구한다) |
 
-(`AGENT_TOOLS["execution_agent"]`, [agent.py:111](../src/agent.py#L111);
+(`AGENT_TOOLS["execution_agent"]`, [agent.py:120](../src/agent.py#L120);
 위험도 분류는 `guardrails.RISK_LEVELS`, [guardrails.py:210-220](../src/guardrails.py#L210-L220))
 
 **이 에이전트만 승인 게이트가 실제로 작동한다.** `guardrails.needs_approval()`은
-코드 전체에서 [agent.py:612](../src/agent.py#L612)(`_execution_approve_node`) 한
+코드 전체에서 [agent.py:703](../src/agent.py#L703)(`_execution_approve_node`) 한
 곳에서만 호출되고, 이건 이 에이전트가 고른 도구에만 적용된다 — 다른 3개 에이전트의
 도구는 `RISK_LEVELS`에 값이 있어도 이 경로를 거치지 않는다([cost_lookup_agent.md](cost_lookup_agent.md) 참고).
 
 ## 라우팅 — 유일하게 키워드가 아니라 정규식
 
 다른 3개 에이전트와 달리 단어 매칭이 아니라 **명령형 어미가 붙은 정규식**으로
-판정한다(`_EXECUTION_PATTERNS`, [agent.py:130-138](../src/agent.py#L130-L138)):
+판정한다(`_EXECUTION_PATTERNS`, [agent.py:139-147](../src/agent.py#L139-L147)):
 
 ```
 꺼(줘|주세요|줄래)
@@ -38,16 +38,16 @@
 잘못 라우팅되는 문제가 코드 리뷰에서 발견됐다 — 실제 명령형 어미(줘/주세요/줄래)가
 뒤에 붙을 때만 매칭한다. "꺼"도 "꺼림칙한"/"꺼내서"에 안 걸리도록 같은 방식으로 제한.
 
-매칭되면 **이 에이전트 단독으로만** 라우팅된다([agent.py:164-165](../src/agent.py#L164-L165))
+매칭되면 **이 에이전트 단독으로만** 라우팅된다([agent.py:173-174](../src/agent.py#L173-L174))
 — 조회 요청과 섞이면 승인 흐름이 애매해지기 때문이다.
 
 ## 구조 — decide/approve 2단계 분리
 
 다른 3개 에이전트는 노드 하나(ReAct 루프)로 끝나지만, 이 에이전트는 **두 노드**로
-쪼개져 있다([agent.py:519-614](../src/agent.py#L519-L614)):
+쪼개져 있다([agent.py:652-745](../src/agent.py#L652-L745)):
 
-1. **`_execution_decide_node`**: LLM이 어떤 도구를 호출할지만 결정한다(아직 실행 안 함)
-2. **`_execution_approve_node`**: LLM을 호출하지 않는 결정적 노드. `needs_approval()`로
+1. **`_execution_decide_node`**([agent.py:652](../src/agent.py#L652)): LLM이 어떤 도구를 호출할지만 결정한다(아직 실행 안 함)
+2. **`_execution_approve_node`**([agent.py:703](../src/agent.py#L703)): LLM을 호출하지 않는 결정적 노드. `needs_approval()`로
    승인 필요 여부를 판정하고, 필요하면 `interrupt()`로 그래프를 정지한 뒤 승인
    결과에 따라 실제로 도구를 실행한다
 
@@ -61,7 +61,7 @@
 
 ## 핵심 행동 규칙
 
-시스템 프롬프트([agent.py:280-289](../src/agent.py#L280-L289))에 강제된 규칙:
+시스템 프롬프트([agent.py:304-318](../src/agent.py#L304-L318))에 강제된 규칙:
 
 - **위험한 실행 요청이라도 스스로 거절하거나 승인 여부를 되묻지 말고 도구를 그대로
   호출한다.** 승인 여부 판단은 LLM이 아니라 시스템(`needs_approval`)의 몫이다 —

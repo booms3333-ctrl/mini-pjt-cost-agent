@@ -12,7 +12,7 @@
 | `detect_cost_anomaly` | 로컬 (`src/tools.py`) | 직전 `window_days` 이동평균 대비 z-score 급증 탐지 |
 | `aws_check_incidents` / `gcp_check_incidents` / `azure_check_incidents` | MCP | 클라우드 공개 상태 피드에서 **실제 장애 이력** 조회(합성 데이터 아님, 인증 불필요) |
 
-(`AGENT_TOOLS["anomaly_agent"]`, [agent.py:103-106](../src/agent.py#L103-L106))
+(`AGENT_TOOLS["anomaly_agent"]`, [agent.py:112-115](../src/agent.py#L112-L115))
 
 `check_incidents`는 AWS(`status.aws.amazon.com`)/GCP(`status.cloud.google.com`)/Azure
 (상태 RSS)를 실시간 조회한다(`src/incident_feeds.py`). **AWS·Azure는 현재 진행 중인
@@ -31,20 +31,24 @@
 ```
 이상, 급증, 급등, 튀었, 이상한, anomaly, spike
 ```
-(`_ANOMALY_KEYWORDS`, [agent.py:118](../src/agent.py#L118))
+(`_ANOMALY_KEYWORDS`, [agent.py:127](../src/agent.py#L127))
 
 **"계획"류 복합 질의**(`_PLAN_KEYWORDS`: "계획"/"plan")는 이 에이전트와
-`optimization_agent`를 **함께** 라우팅한다([agent.py:167-168](../src/agent.py#L167-L168))
+`optimization_agent`를 **함께** 라우팅한다([agent.py:176-177](../src/agent.py#L176-L177))
 — 절감 계획은 이상탐지 결과와 최적화 후보를 함께 봐야 한다는 Plan-Execute 2단계
 분해로 취급하기 때문이다.
 
 ## 핵심 행동 규칙
 
-시스템 프롬프트([agent.py:242-279](../src/agent.py#L242-L279))에 강제된 4가지 규칙:
+시스템 프롬프트([agent.py:260-303](../src/agent.py#L260-L303))에 강제된 4가지 규칙:
 
-1. **복합 질문이어도 이상 급증 여부가 답변에 관련 있으면 `detect_cost_anomaly`를
-   반드시 호출한다.** "이건 내 역할이 아니다"라고 판단해 도구를 안 부르는 경우가
-   있어서(예: 절감 계획 질문에서 이상탐지를 생략) 예외 없이 명시했다.
+1. **절대 규칙: 복합 질문을 맡으면 관련 여부를 스스로 판단해 건너뛰지 말고 예외
+   없이 매번 `detect_cost_anomaly`를 먼저 호출한다.** 처음엔 "관련이 있다면
+   호출하라"는 조건부 문구였는데, "이건 내 역할이 아니다"/"이번엔 관련 없다"고
+   판단해 도구를 안 부르는 경우가 있었다(예: 절감 계획 질문에서 이상탐지를 생략).
+   조건부 지시는 LLM이 스스로 예외 처리할 여지를 줘서, "관련이 없는지는 호출
+   결과를 보고 나서만 판단하라"는 절대 규칙으로 바꿔 안정화했다(round1/round2
+   각각 20/20 재검증 완료).
 2. **원인을 하나로 단정할 근거가 부족하면 단정하지 말고 후보를 여러 개 제시하거나
    되묻는다.** "이번 달이랑 지난달이랑 비교가 안 맞는데 왜 그래?"처럼 모호한 질문에
    `detect_cost_anomaly` 결과만으로 확정적 원인을 답해버리는 문제가 있었다 —
