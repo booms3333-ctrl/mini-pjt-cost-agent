@@ -1,0 +1,14 @@
+{
+  "provider": "azure",
+  "sku": "Standard_D2_v4",
+  "region": "eastus",
+  "as_of": "2026-09-16",
+  "fetched_at": "2026-09-16T05:14:12.769354+00:00",
+  "source": "https://prices.azure.com/api/retail/prices (Azure Retail Prices API, 인증 불필요)",
+  "payg_hourly_usd": 0.096,
+  "reservation_1yr_total_usd": 496.0,
+  "reservation_3yr_total_usd": 959.0,
+  "discount_1yr": 0.4102,
+  "discount_3yr": 0.6199,
+  "note": "일반 범용 인스턴스(Dv4 시리즈) 기준 근사치. 실제 할인율은 인스턴스 패밀리·리전·결제 옵션에 따라 다르다."
+}

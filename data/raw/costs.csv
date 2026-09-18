@@ -1,0 +1,901 @@
+provider,account_id,service,resource_id,tag_team,usage_date,cost_amount,currency
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-17,12.33,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-18,10.86,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-19,11.46,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-20,11.34,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-21,12.57,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-22,12.42,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-23,12.94,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-24,11.01,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-25,11.81,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-26,10.87,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-27,11.32,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-28,12.01,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-29,10.86,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-06-30,11.28,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-01,12.36,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-02,12.11,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-03,11.33,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-04,12.21,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-05,12.74,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-06,10.82,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-07,12.73,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-08,12.48,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-09,11.62,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-10,11.17,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-11,13.1,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-12,11.61,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-13,11.02,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-14,11.03,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-15,12.83,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-16,12.25,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-17,12.74,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-18,12.55,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-19,12.09,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-20,13.14,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-21,11.71,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-22,12.12,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-23,12.79,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-24,12.28,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-25,12.87,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-26,12.19,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-27,12.49,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-28,10.91,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-29,11.35,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-30,11.49,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-07-31,10.99,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-01,11.36,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-02,11.04,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-03,11.47,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-04,12.33,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-05,11.68,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-06,11.69,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-07,11.3,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-08,11.44,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-09,13.05,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-10,12.36,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-11,12.26,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-12,11.21,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-13,12.55,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-14,11.19,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-15,11.71,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-16,13.17,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-17,12.34,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-18,12.14,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-19,12.44,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-20,12.82,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-21,12.66,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-22,11.35,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-23,10.88,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-24,11.56,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-25,11.44,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-26,11.31,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-27,13.06,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-28,12.9,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-29,11.56,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-30,12.37,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-08-31,11.75,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-01,12.99,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-02,11.9,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-03,11.44,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-04,11.39,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-05,12.15,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-06,11.43,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-07,12.2,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-08,12.95,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-09,11.76,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-10,11.33,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-11,13.19,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-12,12.02,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-13,11.02,USD
+aws,aws-account-01,EC2,i-1001-ec2-team-a,team-a,2026-09-14,65.48,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-17,7.38,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-18,8.2,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-19,8.47,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-20,7.88,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-21,7.3,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-22,7.81,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-23,8.79,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-24,8.05,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-25,8.75,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-26,8.58,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-27,7.22,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-28,8.35,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-29,8.29,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-06-30,8.06,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-01,7.63,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-02,8.23,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-03,7.38,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-04,7.9,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-05,7.93,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-06,8.73,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-07,8.6,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-08,7.62,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-09,8.0,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-10,7.49,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-11,8.66,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-12,8.59,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-13,7.68,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-14,8.22,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-15,8.17,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-16,7.44,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-17,8.42,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-18,8.06,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-19,8.45,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-20,8.05,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-21,7.2,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-22,7.72,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-23,7.23,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-24,8.69,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-25,8.61,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-26,8.53,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-27,7.69,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-28,7.29,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-29,8.6,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-30,8.72,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-07-31,7.34,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-01,7.98,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-02,7.31,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-03,8.42,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-04,8.43,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-05,7.41,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-06,7.96,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-07,8.08,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-08,7.62,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-09,8.6,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-10,7.88,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-11,7.54,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-12,8.06,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-13,8.37,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-14,7.52,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-15,7.7,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-16,8.79,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-17,8.24,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-18,7.9,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-19,8.03,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-20,7.39,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-21,7.56,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-22,7.74,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-23,8.14,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-24,7.57,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-25,7.55,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-26,7.31,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-27,8.21,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-28,7.57,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-29,8.65,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-30,8.58,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-08-31,7.31,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-01,7.58,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-02,8.27,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-03,7.54,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-04,7.41,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-05,8.7,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-06,8.11,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-07,7.96,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-08,8.46,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-09,8.49,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-10,7.5,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-11,7.36,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-12,7.89,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-13,7.88,USD
+aws,aws-account-01,EC2,i-1002-ec2-team-b,team-b,2026-09-14,7.95,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-17,1.57,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-18,1.55,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-19,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-20,1.38,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-21,1.47,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-22,1.45,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-23,1.61,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-24,1.42,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-25,1.41,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-26,1.48,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-27,1.48,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-28,1.43,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-29,1.42,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-06-30,1.63,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-01,1.48,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-02,1.61,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-03,1.52,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-04,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-05,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-06,1.6,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-07,1.64,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-08,1.63,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-09,1.6,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-10,1.4,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-11,1.5,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-12,1.41,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-13,1.47,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-14,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-15,1.46,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-16,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-17,1.43,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-18,1.59,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-19,1.49,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-20,1.48,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-21,1.64,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-22,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-23,1.52,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-24,1.57,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-25,1.4,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-26,1.44,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-27,1.64,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-28,1.52,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-29,1.51,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-30,1.57,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-07-31,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-01,1.53,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-02,1.5,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-03,1.61,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-04,1.4,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-05,1.64,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-06,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-07,1.41,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-08,1.53,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-09,1.55,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-10,1.42,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-11,1.39,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-12,1.62,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-13,1.42,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-14,1.53,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-15,1.54,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-16,1.48,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-17,1.53,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-18,1.51,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-19,1.63,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-20,1.41,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-21,1.56,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-22,1.42,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-23,1.47,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-24,1.55,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-25,1.44,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-26,1.44,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-27,1.58,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-28,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-29,1.49,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-30,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-08-31,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-01,1.37,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-02,1.41,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-03,1.43,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-04,1.63,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-05,1.61,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-06,1.61,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-07,1.46,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-08,1.4,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-09,1.6,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-10,1.56,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-11,1.53,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-12,1.65,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-13,1.55,USD
+aws,aws-account-01,EBS,vol-1003-ebs-team-a,team-a,2026-09-14,1.35,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-17,3.19,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-18,2.88,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-19,3.1,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-20,3.26,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-21,2.78,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-22,2.77,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-23,2.76,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-24,3.03,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-25,2.86,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-26,3.06,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-27,3.13,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-28,2.82,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-29,3.08,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-06-30,2.86,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-01,2.99,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-02,3.24,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-03,3.21,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-04,2.76,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-05,2.95,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-06,2.87,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-07,2.7,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-08,3.16,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-09,3.08,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-10,2.86,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-11,3.14,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-12,3.03,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-13,2.96,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-14,2.71,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-15,2.75,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-16,3.23,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-17,3.24,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-18,3.03,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-19,3.2,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-20,3.05,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-21,2.79,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-22,2.78,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-23,2.88,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-24,3.24,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-25,3.18,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-26,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-27,3.24,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-28,2.83,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-29,2.85,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-30,2.76,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-07-31,3.17,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-01,3.23,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-02,2.94,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-03,3.07,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-04,2.79,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-05,3.26,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-06,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-07,3.29,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-08,3.19,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-09,3.23,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-10,2.71,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-11,3.14,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-12,2.9,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-13,3.26,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-14,3.18,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-15,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-16,3.19,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-17,2.86,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-18,3.17,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-19,2.76,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-20,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-21,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-22,2.83,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-23,3.19,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-24,2.98,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-25,2.88,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-26,3.18,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-27,2.84,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-28,2.71,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-29,2.82,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-30,2.9,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-08-31,3.22,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-01,3.28,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-02,2.87,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-03,3.08,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-04,2.94,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-05,3.29,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-06,3.02,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-07,3.26,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-08,2.77,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-09,3.28,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-10,2.81,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-11,3.28,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-12,2.86,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-13,2.77,USD
+aws,aws-account-01,S3,bucket-1004-s3-team-c,team-c,2026-09-14,2.96,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-17,10.46,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-18,9.63,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-19,10.21,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-20,10.02,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-21,9.77,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-22,10.15,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-23,9.51,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-24,10.42,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-25,9.0,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-26,10.85,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-27,10.08,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-28,10.44,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-29,10.48,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-06-30,10.34,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-01,9.73,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-02,9.14,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-03,10.33,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-04,9.66,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-05,9.63,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-06,10.7,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-07,10.44,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-08,9.6,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-09,9.62,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-10,9.82,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-11,9.8,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-12,9.59,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-13,9.25,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-14,9.84,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-15,10.88,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-16,10.35,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-17,10.81,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-18,10.23,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-19,9.6,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-20,10.1,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-21,9.0,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-22,9.57,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-23,9.86,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-24,10.16,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-25,10.31,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-26,9.93,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-27,9.88,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-28,9.43,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-29,9.95,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-30,10.8,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-07-31,10.59,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-01,9.34,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-02,9.17,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-03,10.03,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-04,10.27,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-05,9.67,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-06,10.64,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-07,10.5,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-08,10.35,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-09,9.45,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-10,9.4,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-11,9.05,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-12,9.49,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-13,9.95,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-14,10.7,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-15,9.15,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-16,9.83,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-17,10.26,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-18,9.39,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-19,10.39,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-20,9.99,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-21,9.49,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-22,10.31,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-23,9.01,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-24,10.5,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-25,10.54,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-26,9.21,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-27,9.85,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-28,9.35,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-29,10.92,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-30,10.04,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-08-31,9.1,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-01,9.5,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-02,10.7,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-03,9.91,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-04,10.6,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-05,10.34,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-06,10.98,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-07,22.42,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-08,10.9,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-09,10.78,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-10,10.23,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-11,10.44,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-12,10.01,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-13,10.66,USD
+gcp,gcp-account-01,Compute Engine,gce-2001-team-b,team-b,2026-09-14,10.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-17,2.16,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-18,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-19,1.99,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-20,1.9,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-21,1.9,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-22,2.06,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-23,2.11,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-24,2.01,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-25,2.05,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-26,1.91,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-27,1.83,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-28,1.91,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-29,1.91,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-06-30,1.93,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-01,2.02,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-02,1.86,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-03,1.89,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-04,2.08,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-05,2.08,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-06,1.83,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-07,1.96,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-08,2.02,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-09,1.97,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-10,1.88,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-11,1.97,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-12,2.16,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-13,2.03,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-14,2.08,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-15,2.14,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-16,2.11,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-17,1.95,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-18,1.8,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-19,1.94,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-20,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-21,2.14,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-22,2.18,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-23,1.97,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-24,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-25,2.02,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-26,2.04,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-27,1.89,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-28,1.89,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-29,1.97,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-30,1.81,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-07-31,1.93,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-01,2.07,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-02,1.96,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-03,1.87,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-04,1.99,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-05,1.85,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-06,2.05,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-07,1.81,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-08,1.96,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-09,2.03,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-10,1.81,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-11,2.06,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-12,1.85,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-13,1.98,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-14,1.82,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-15,1.95,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-16,1.88,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-17,1.93,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-18,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-19,1.95,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-20,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-21,2.13,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-22,1.9,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-23,1.83,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-24,1.81,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-25,2.02,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-26,2.2,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-27,1.94,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-28,2.06,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-29,2.11,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-30,2.06,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-08-31,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-01,2.18,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-02,1.88,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-03,1.81,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-04,1.86,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-05,1.85,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-06,2.07,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-07,2.03,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-08,1.89,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-09,2.08,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-10,2.11,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-11,1.87,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-12,2.04,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-13,2.1,USD
+gcp,gcp-account-01,Cloud Storage,gcs-2002-team-c,team-c,2026-09-14,1.85,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-17,4.26,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-18,4.37,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-19,3.69,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-20,3.62,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-21,3.85,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-22,4.14,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-23,4.37,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-24,3.92,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-25,4.17,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-26,3.66,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-27,4.15,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-28,4.1,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-29,3.68,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-06-30,4.22,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-01,4.28,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-02,4.08,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-03,3.7,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-04,4.39,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-05,4.23,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-06,3.88,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-07,3.94,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-08,3.9,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-09,4.0,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-10,3.87,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-11,4.28,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-12,4.26,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-13,3.68,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-14,4.37,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-15,4.11,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-16,4.26,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-17,4.17,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-18,3.95,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-19,4.19,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-20,4.37,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-21,3.82,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-22,4.25,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-23,4.03,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-24,3.99,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-25,3.95,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-26,4.18,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-27,3.81,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-28,4.28,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-29,4.26,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-30,3.67,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-07-31,4.31,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-01,3.8,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-02,3.97,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-03,4.09,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-04,3.9,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-05,3.62,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-06,4.28,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-07,3.75,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-08,3.77,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-09,4.24,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-10,3.87,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-11,4.3,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-12,4.16,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-13,3.82,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-14,3.61,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-15,4.36,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-16,3.67,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-17,4.18,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-18,3.99,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-19,4.21,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-20,4.15,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-21,4.12,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-22,3.99,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-23,4.23,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-24,3.67,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-25,3.78,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-26,4.15,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-27,3.84,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-28,4.07,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-29,3.98,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-30,4.02,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-08-31,3.94,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-01,4.2,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-02,3.86,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-03,4.16,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-04,3.82,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-05,3.8,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-06,3.7,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-07,3.75,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-08,3.7,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-09,4.03,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-10,4.21,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-11,3.75,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-12,3.77,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-13,3.99,USD
+gcp,gcp-account-01,BigQuery,bq-2003-team-a,team-a,2026-09-14,4.18,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-17,9.86,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-18,9.04,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-19,8.61,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-20,8.28,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-21,8.45,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-22,8.51,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-23,8.42,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-24,8.13,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-25,9.06,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-26,8.59,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-27,9.85,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-28,9.1,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-29,9.36,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-06-30,8.33,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-01,9.66,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-02,8.98,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-03,9.67,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-04,9.13,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-05,8.94,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-06,8.89,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-07,8.43,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-08,8.19,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-09,9.79,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-10,8.96,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-11,9.58,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-12,8.82,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-13,8.23,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-14,9.23,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-15,8.2,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-16,8.37,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-17,9.11,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-18,8.65,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-19,9.89,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-20,8.31,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-21,9.48,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-22,9.19,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-23,9.52,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-24,8.51,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-25,9.04,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-26,8.91,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-27,8.9,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-28,9.65,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-29,9.88,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-30,8.65,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-07-31,9.22,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-01,9.2,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-02,9.43,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-03,9.81,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-04,8.47,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-05,8.48,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-06,9.29,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-07,8.38,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-08,8.41,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-09,8.24,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-10,8.1,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-11,8.91,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-12,9.17,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-13,8.62,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-14,8.52,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-15,9.37,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-16,9.37,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-17,8.92,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-18,9.34,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-19,9.76,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-20,9.52,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-21,9.23,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-22,9.29,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-23,9.78,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-24,8.87,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-25,9.08,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-26,9.27,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-27,9.74,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-28,9.59,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-29,8.23,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-30,8.4,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-08-31,8.65,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-01,9.45,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-02,9.12,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-03,8.62,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-04,8.32,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-05,9.34,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-06,9.36,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-07,9.8,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-08,9.0,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-09,8.99,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-10,8.24,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-11,8.17,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-12,8.88,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-13,8.68,USD
+azure,azure-account-01,Virtual Machines,vm-3001-team-c,team-c,2026-09-14,8.55,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-17,0.92,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-18,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-19,1.07,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-20,1.02,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-21,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-22,1.1,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-23,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-24,0.95,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-25,0.91,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-26,1.05,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-27,0.99,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-28,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-29,1.08,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-06-30,0.94,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-01,1.02,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-02,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-03,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-04,0.92,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-05,0.97,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-06,0.97,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-07,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-08,1.07,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-09,0.97,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-10,1.04,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-11,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-12,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-13,1.06,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-14,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-15,0.99,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-16,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-17,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-18,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-19,0.98,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-20,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-21,1.1,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-22,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-23,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-24,0.98,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-25,0.94,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-26,0.97,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-27,1.05,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-28,1.03,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-29,1.05,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-30,0.94,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-07-31,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-01,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-02,0.99,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-03,1.04,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-04,0.92,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-05,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-06,1.02,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-07,0.95,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-08,0.93,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-09,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-10,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-11,0.92,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-12,1.1,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-13,1.08,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-14,0.99,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-15,0.92,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-16,1.07,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-17,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-18,1.04,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-19,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-20,0.95,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-21,1.07,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-22,1.1,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-23,0.95,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-24,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-25,0.98,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-26,1.08,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-27,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-28,1.08,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-29,1.07,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-30,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-08-31,1.06,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-01,0.98,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-02,1.09,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-03,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-04,1.06,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-05,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-06,0.96,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-07,1.02,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-08,1.1,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-09,1.0,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-10,0.93,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-11,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-12,0.97,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-13,1.01,USD
+azure,azure-account-01,Managed Disks,disk-3002-team-a,team-a,2026-09-14,1.01,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-17,5.95,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-18,5.79,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-19,5.63,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-20,6.24,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-21,6.09,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-22,5.68,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-23,6.33,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-24,5.45,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-25,6.29,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-26,6.25,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-27,6.37,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-28,5.86,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-29,6.2,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-06-30,6.38,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-01,6.58,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-02,5.99,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-03,5.44,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-04,6.0,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-05,6.11,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-06,6.44,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-07,6.45,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-08,5.93,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-09,6.03,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-10,5.95,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-11,6.27,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-12,5.89,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-13,6.19,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-14,5.59,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-15,5.96,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-16,6.56,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-17,5.81,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-18,6.23,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-19,6.18,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-20,6.42,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-21,6.42,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-22,6.43,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-23,5.86,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-24,5.78,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-25,6.26,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-26,6.31,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-27,6.45,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-28,5.44,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-29,5.48,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-30,6.16,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-07-31,6.51,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-01,6.6,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-02,6.3,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-03,5.92,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-04,5.52,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-05,6.16,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-06,6.45,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-07,5.93,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-08,6.23,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-09,6.48,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-10,5.46,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-11,6.36,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-12,5.75,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-13,5.85,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-14,5.57,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-15,6.04,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-16,6.08,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-17,6.35,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-18,5.6,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-19,5.49,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-20,6.45,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-21,6.14,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-22,5.69,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-23,6.5,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-24,5.57,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-25,5.95,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-26,5.7,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-27,5.71,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-28,5.41,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-29,6.37,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-30,6.48,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-08-31,6.21,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-01,5.59,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-02,5.93,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-03,5.81,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-04,6.11,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-05,6.17,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-06,5.91,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-07,5.7,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-08,6.41,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-09,5.64,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-10,5.86,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-11,5.98,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-12,5.68,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-13,6.09,USD
+azure,azure-account-01,SQL Database,sql-3003-team-b,team-b,2026-09-14,6.09,USD

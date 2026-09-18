@@ -1,0 +1,8 @@
+{"seq": 0, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 1, "event": "llm_end", "name": "optimization_agent", "latency_s": 0.678, "status": "ok"}
+{"seq": 2, "event": "tool_batch_start", "name": "optimization_agent"}
+{"seq": 3, "event": "tool_batch_end", "name": "optimization_agent", "latency_s": 2.735, "status": "ok"}
+{"seq": 4, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 5, "event": "llm_end", "name": "optimization_agent", "latency_s": 1.016, "status": "ok"}
+{"seq": 6, "event": "llm_start", "name": "answer_chain"}
+{"seq": 7, "event": "llm_end", "name": "answer_chain", "latency_s": 0.897, "status": "ok"}

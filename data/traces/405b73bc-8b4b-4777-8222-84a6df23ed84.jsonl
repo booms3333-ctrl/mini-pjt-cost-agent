@@ -1,0 +1,10 @@
+{"seq": 0, "event": "llm_start", "name": "cost_lookup_agent"}
+{"seq": 1, "event": "llm_end", "name": "cost_lookup_agent", "latency_s": 1.805, "status": "ok"}
+{"seq": 2, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 3, "event": "llm_end", "name": "optimization_agent", "latency_s": 0.831, "status": "ok"}
+{"seq": 4, "event": "tool_batch_start", "name": "optimization_agent"}
+{"seq": 5, "event": "tool_batch_end", "name": "optimization_agent", "latency_s": 8.316, "status": "ok"}
+{"seq": 6, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 7, "event": "llm_end", "name": "optimization_agent", "latency_s": 1.899, "status": "ok"}
+{"seq": 8, "event": "llm_start", "name": "answer_chain"}
+{"seq": 9, "event": "llm_end", "name": "answer_chain", "latency_s": 1.123, "status": "ok"}

@@ -1,0 +1,53 @@
+# ── 과정 공통 스택 (Amazon Bedrock, Day 1~7과 동일) ─────────
+langchain>=0.3
+langchain-text-splitters>=0.3
+langchain-core>=0.3
+langchain-aws>=0.2
+langgraph>=0.2
+# langgraph-supervisor(prebuilt Supervisor 헬퍼)는 안 쓴다 — CLAUDE.md에 적었듯
+# StateGraph로 직접 만든 Supervisor를 쓴다. 예전엔 여기 있었는데 코드 어디서도
+# import를 안 해서 안 쓰는 의존성으로 남아있었다(코드 리뷰에서 발견, 제거).
+langgraph-checkpoint-sqlite>=2.0  # app.py의 AsyncSqliteSaver(대화 상태 영구 저장)에 필요
+langchain-mcp-adapters>=0.1
+fastmcp>=2.0
+python-dotenv>=1.0
+pydantic>=2.7
+
+# ── RAG (FinOps 정책 · 가격 문서 검색, 하이브리드 = BM25 + 벡터 +
+#     쿼리확장 MultiQueryRetriever + 리랭킹) ─────────────────────
+chromadb>=0.5
+langchain-chroma>=0.1
+langchain-community>=0.3
+# EnsembleRetriever/MultiQueryRetriever는 langchain 1.x대에서 langchain-classic으로
+# 이동했다. langchain>=0.3만 믿고 langchain.retrievers를 그대로 쓰면 이 저장소
+# 환경(langchain 1.4.0)에서 ModuleNotFoundError가 난다 — 직접 겪고 고쳤다.
+langchain-classic>=1.0
+rank-bm25>=0.2
+kiwipiepy>=0.17
+
+# ── API 서버 ─────────────────────────────────────────────────
+fastapi>=0.110
+uvicorn>=0.29
+
+# ── 평가 ─────────────────────────────────────────────────────
+# ragas 패키지는 안 쓴다: langchain-community 0.4+ 와 호환되지 않는다
+# (langchain_community.chat_models.vertexai를 무조건 import하는데 그 모듈이
+# 0.4+에서 제거됨). 되돌리려면 langchain-core를 1.0 미만으로 내려야 하는데,
+# 그러면 langgraph/langchain-aws/langchain-chroma/langchain-classic/
+# langchain-mcp-adapters가 전부 깨진다 (직접 시도해서 확인함). 같은 지표를
+# evaluation/ragas_lite.py 가 우리 Bedrock LLM으로 직접 계산한다.
+pytest>=8.4
+
+# ── 로컬 데모 UI (선택, ui/streamlit_app.py) ──────────────────
+# 서버(src/app.py)를 그대로 호출만 하는 별도 프로세스라 이 두 줄이 없어도
+# uvicorn 서버 자체는 문제없이 뜬다. requests는 다른 패키지의 의존성으로
+# 이미 깔려 있을 수 있지만 명시적으로 버전을 고정해둔다.
+streamlit>=1.38
+streamlit-shadcn-ui>=1.4
+requests>=2.32
+
+# ── 준비 스크립트 (선택, scripts/fetch_cost_optimization_guides.py) ─
+# AWS/GCP/Azure 공식 비용 최적화 가이드 페이지(HTML)에서 본문만 추출해
+# data/policy_docs/*.md 스냅샷으로 저장한다 — retrieve_docs가 그 폴더를
+# 자동으로 색인하므로 이 스크립트 없이도 서버 자체는 문제없이 뜬다.
+beautifulsoup4>=4.12

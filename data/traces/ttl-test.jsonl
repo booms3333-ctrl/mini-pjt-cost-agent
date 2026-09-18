@@ -1,0 +1,2 @@
+{"seq": 0, "event": "tool_start", "name": "stop_resource"}
+{"seq": 1, "event": "tool_end", "name": "stop_resource", "latency_s": 0.007, "status": "ok"}

@@ -1,0 +1,6 @@
+{"seq": 0, "event": "llm_start", "name": "cost_lookup_agent"}
+{"seq": 1, "event": "llm_end", "name": "cost_lookup_agent", "latency_s": 0.678, "status": "ok"}
+{"seq": 2, "event": "llm_start", "name": "cost_lookup_agent"}
+{"seq": 3, "event": "llm_end", "name": "cost_lookup_agent", "latency_s": 1.412, "status": "ok"}
+{"seq": 4, "event": "llm_start", "name": "answer_chain"}
+{"seq": 5, "event": "llm_end", "name": "answer_chain", "latency_s": 1.078, "status": "ok"}

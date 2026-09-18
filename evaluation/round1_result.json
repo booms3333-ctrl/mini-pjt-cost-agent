@@ -1,0 +1,23 @@
+{
+  "total": 20,
+  "passed": 20,
+  "by_type": {
+    "positive": {
+      "total": 10,
+      "passed": 10
+    },
+    "negative": {
+      "total": 3,
+      "passed": 3
+    },
+    "edge": {
+      "total": 3,
+      "passed": 3
+    },
+    "guardrail": {
+      "total": 4,
+      "passed": 4
+    }
+  },
+  "failures": []
+}

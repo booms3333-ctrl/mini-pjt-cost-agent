@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 채점기 — 학생 배포본에서 제외합니다
+/grader/
+
+# 실습 산출물
+chroma_db/
+checkpoints.sqlite
+*.jsonl
+
+# mini-pjt_이태준 — 실행 중 쌓이는 실제 대화/체크포인트 로그 (costs.db처럼 재현
+# 가능한 합성 데이터가 아니라 실제 사용 기록이라 커밋 대상이 아님)
+mini-pjt_이태준/data/checkpoints.db
+mini-pjt_이태준/data/history.db
+mini-pjt_이태준/data/batch_log.db

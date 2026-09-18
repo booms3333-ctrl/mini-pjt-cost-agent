@@ -1,0 +1,15 @@
+# ui/streamlit_app.py 전용 로컬 테마 — "아침 브리핑"(Morning Briefing) 방향: 세이지빛
+# 종이 배경 + 따뜻한 골드 강조색으로 편지 같은 느낌을 낸다. 실제 본문/제목 폰트(Karla/
+# Libre Franklin)는 이 파일이 아니라 streamlit_app.py의 CUSTOM_CSS에서 얹는다 — Streamlit
+# config.toml의 font 값은 "sans serif"/"serif"/"monospace" 중에서만 고를 수 있어서
+# 커스텀 구글 폰트를 여기서 직접 지정할 수 없다. 서버(src/app.py)와는 무관하다.
+[theme]
+base = "light"
+primaryColor = "#cf8a2e"
+backgroundColor = "#f4f6f1"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#232920"
+font = "sans serif"
+
+[server]
+headless = true

@@ -1,0 +1,4 @@
+{"seq": 0, "event": "llm_start", "name": "execution_agent"}
+{"seq": 1, "event": "llm_end", "name": "execution_agent", "latency_s": 1.165, "status": "ok"}
+{"seq": 2, "event": "llm_start", "name": "answer_chain"}
+{"seq": 3, "event": "llm_end", "name": "answer_chain", "latency_s": 0.913, "status": "ok"}

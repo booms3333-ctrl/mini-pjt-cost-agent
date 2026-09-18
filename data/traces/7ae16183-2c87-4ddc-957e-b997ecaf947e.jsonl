@@ -1,0 +1,18 @@
+{"seq": 0, "event": "llm_start", "name": "anomaly_agent"}
+{"seq": 1, "event": "llm_end", "name": "anomaly_agent", "latency_s": 1.651, "status": "ok"}
+{"seq": 2, "event": "tool_batch_start", "name": "anomaly_agent"}
+{"seq": 3, "event": "tool_batch_end", "name": "anomaly_agent", "latency_s": 0.017, "status": "ok"}
+{"seq": 4, "event": "llm_start", "name": "anomaly_agent"}
+{"seq": 5, "event": "llm_end", "name": "anomaly_agent", "latency_s": 3.46, "status": "ok"}
+{"seq": 6, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 7, "event": "llm_end", "name": "optimization_agent", "latency_s": 0.677, "status": "ok"}
+{"seq": 8, "event": "tool_batch_start", "name": "optimization_agent"}
+{"seq": 9, "event": "tool_batch_end", "name": "optimization_agent", "latency_s": 5.59, "status": "ok"}
+{"seq": 10, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 11, "event": "llm_end", "name": "optimization_agent", "latency_s": 1.053, "status": "ok"}
+{"seq": 12, "event": "tool_batch_start", "name": "optimization_agent"}
+{"seq": 13, "event": "tool_batch_end", "name": "optimization_agent", "latency_s": 3.197, "status": "ok"}
+{"seq": 14, "event": "llm_start", "name": "optimization_agent"}
+{"seq": 15, "event": "llm_end", "name": "optimization_agent", "latency_s": 1.31, "status": "ok"}
+{"seq": 16, "event": "llm_start", "name": "answer_chain"}
+{"seq": 17, "event": "llm_end", "name": "answer_chain", "latency_s": 1.236, "status": "ok"}
