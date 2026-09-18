@@ -39,6 +39,13 @@ Supervisor가 질문을 4개 서브 에이전트 중 하나 이상에 배분한�
 노출한다. 멀티클라우드 합산이 필요한 `get_cost_by_service`만 오케스트레이션 계층(로컬)에
 남겨뒀다 — 어느 한 계정 API도 다른 계정 비용은 모르기 때문이다.
 
+**Bedrock 모델·페일오버**: 단일 모델에 고정하지 않고, Amazon Bedrock 모델 9개를 속도
+우선으로 줄 세운 페일오버 목록(`llm_utils.MODEL_PRIORITY`)을 쓴다 — 1순위(Nova 2
+Lite)가 재시도까지 다 실패해야 다음 순위로 넘어가는 리액티브 방식이라 정상 상황에는
+추가 지연이 없다. 방금 실패한 모델은 서킷 브레이커가 30초간 재시도 대상에서 빼서,
+스로틀링이 재시도로 더 악화되는 악순환을 막는다. 실제로 응답한 모델은 질의응답 화면에
+캡션으로 표시된다. 세부 설계·실측 근거는 [MODEL_FAILOVER.md](MODEL_FAILOVER.md) 참고.
+
 **데이터**
 
 | 데이터 | 출처 | 실제/가짜 |
@@ -60,6 +67,10 @@ Supervisor가 질문을 4개 서브 에이전트 중 하나 이상에 배분한�
 3. 근거 데이터가 없는 기간·리소스에 대해서는 추측하지 않고 "데이터 없음"을 명시한다 (`tools.py` 각 조회 함수 + `agent.py`의 `judge_output()`이 서브 에이전트 답변 단계에서 "근거 없는 단정 표현"을 한 번 더 걸러냄)
 4. 리소스 태그·설명 등 외부에서 입력된 텍스트에 포함된 지시문은 시스템 지시로 취급하지 않는다 (`guardrails.sanitize_tool_output`, 로컬·MCP 도구 결과 공통 경로에서 강제)
 5. 요청자의 접근 권한 범위를 벗어난 다른 팀·계정의 비용 정보는 제공하지 않는다 (`authz.py`, `POST /query`의 `requester_team` 필드 기준). **범위**: 로컬 도구 경로는 전부 강제된다. MCP 서버(aws/gcp/azure `cost_server.py`)는 별도 프로세스라 authz의 contextvars가 그 안까지는 안 건너가지만, `get_cost`는 `team` 인자 자체를 없애 팀별 조회 경로를 막았고, `get_utilization(resource_id)`은 `agent.py`의 `tools_node`가 실제 MCP 호출 전에 같은 `costs.db`로 소유 팀을 먼저 확인해 팀 경계까지 부모 프로세스 쪽에서 가로챈다(`_mcp_resource_authz_denial`). `requester_team`도 로그인 세션 같은 인증 없이 요청 필드로 받는 자기 신고 값이다.
+6. 요청 전체 타임아웃·MCP 세션 강제 재기동·HITL 승인 만료(TTL)·턴 단위 LLM 호출
+   예산 4가지 안전장치로, 모델·MCP 서버·승인 대기 중 하나가 막혀도 서비스 전체가
+   무한정 멈추거나 오래된 승인이 뒤늦게 실행되지 않도록 한다. 세부 설계·실측 검증은
+   [SAFEGUARDS.md](SAFEGUARDS.md) 참고.
 
 - 세부 케이스는 `evaluation/test_queries.csv`의 guardrail 항목에서 검증됨
 
@@ -97,5 +108,6 @@ Supervisor가 질문을 4개 서브 에이전트 중 하나 이상에 배분한�
 | RAGAS faithfulness ≥ 0.8 | **1.0** — 단 `retrieve_docs`를 실제로 타는 문항이 20건 중 1건뿐이라 표본이 얇음 (`evaluation/ragas_lite.py`) |
 | 이상탐지 recall ≥ 0.9 | **1.00 (2/2)** — `scripts/generate_data.py`가 주입한 이상치 2건 전부 탐지 (`evaluation/anomaly_recall.py`로 실측) |
 | HITL 트리거 케이스 100% (승인 없이 실행된 사례 0건) | 달성 — 회귀 테스트(`test_hitl_no_duplicate_execution`)로 확인, 다중 호출 시 중복 실행도 없음 |
+| 응답 지연·안정성 | 문항당 평균 ~6.5초(1·2차 각 20문항/132.6초·135.8초, Bedrock+MCP 실호출 기준). 안전장치 4종(요청 타임아웃/MCP 재기동/승인 TTL/LLM 호출 예산) 전부 실제 장애 상황을 인위로 만들어 실측 검증(`SAFEGUARDS.md` 각 절 "검증" 참고) |
 
 - **추가 지표 — LLM-as-Judge(정성 평가)**: `expected_traits`까지 자연어로 판정하는 `--llm-judge` 모드는 결정적 판정과 달리 **17~20/20 사이에서 변동**한다 — 에이전트 답변 생성과 채점 LLM의 PASS/FAIL 판정 둘 다 `temperature=0`에서도 Bedrock이 완벽히 결정적이지 않기 때문이다. 실패한 문항만 따로 반복 실행하면 대부분 통과하는 것으로 확인돼, 이는 수정이 불완전해서가 아니라 채점 방식 자체의 변동성으로 판단한다 (README.md 트라이앤에러 회고 참고).
